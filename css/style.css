@@ -1,0 +1,196 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: arial;
+
+} 
+
+body h1{
+	text-align: center;
+	margin-top: 80px;
+
+}
+
+
+
+
+
+
+
+@media(min-width: 992px){
+	
+	.container{
+		width: 100%;
+		margin-top: 8%;
+		display: flex;
+		justify-content: space-around;
+
+	}
+
+	.container div{
+		border: 1px solid black;
+		background-color: gray;
+		/*padding: 20px;*/
+		width: 30%;
+		
+	}
+
+	.container div h4{
+		text-align: center;
+		position: relative;
+		left: 80%;
+		padding: 5px 10px;
+		width: 20%;
+	}
+
+	.container div:nth-child(1) h4:nth-child(1){
+		background-color: #F98C8C;
+
+	}
+
+	.container div:nth-child(2) h4{
+		background-color: #b50909;
+
+	}
+	.container div:nth-child(3) h4{
+		background-color: #f5cc27;
+
+	}
+
+	.container div p{
+		padding: 10px;
+	}
+	
+}
+
+
+@media(min-width: 768px) and (max-width: 991px){
+	.container{
+		/*width: 100%;*/
+		margin-top: 8%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+
+	}
+
+	.container div{
+		border: 1px solid black;
+		background-color: gray;
+		width: 46%;
+		
+	}
+
+	.container div h4{
+		text-align: center;
+		position: relative;
+		left: 80%;
+		padding: 5px 10px;
+		width: 20%;
+	}
+
+	.container div:nth-child(3){
+		width: 100%;
+		height: 150px;
+		margin: 20px 12px;
+	}
+
+
+
+	.container div:nth-child(1) h4{
+		background-color: #F98C8C;
+		padding: 7px 6px;
+
+	}
+
+	.container div:nth-child(2) h4{
+		background-color: #b50909;
+		padding: 7px 6px;
+
+
+	}
+	.container div:nth-child(3) h4{
+		background-color: #f5cc27;
+
+	}
+
+	.container div p{
+		padding: 10px;
+	}
+}
+
+
+
+@media(max-width: 767px){
+
+	.container{
+		/*width: 100%;*/
+		margin-top: 8%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+
+	}
+
+	.container div{
+		border: 1px solid black;
+		background-color: gray;
+		width: 46%;
+		
+	}
+
+	.container div h4{
+		text-align: center;
+		position: relative;
+		left: 80%;
+		padding: 5px 10px;
+		width: 20%;
+	}
+
+
+	.container div:nth-child(1){
+		width: 100%;
+		height: 200px;
+		margin: 20px 12px;
+	}
+
+	.container div:nth-child(2){
+		width: 100%;
+		height: 200px;
+		margin: 20px 12px;
+	}
+
+	.container div:nth-child(3){
+		width: 100%;
+		height: 200px;
+		margin: 20px 12px;
+	}
+
+
+
+	.container div:nth-child(1) h4{
+		background-color: #F98C8C;
+		padding: 7px 3px;
+
+	}
+
+	.container div:nth-child(2) h4{
+		background-color: #b50909;
+		padding: 7px 6px;
+
+
+	}
+	.container div:nth-child(3) h4{
+		background-color: #f5cc27;
+
+	}
+
+	.container div p{
+		padding: 10px;
+	}
+}
+
